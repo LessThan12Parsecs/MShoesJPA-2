@@ -1,0 +1,7 @@
+ALTER TABLE Empleado DROP FOREIGN KEY FK_Empleado_DEPARTAMENTO_EMP_ID_DEPARTAMENTO
+ALTER TABLE Proveedor_Departamento DROP FOREIGN KEY PrveedorDepartamentoDpartamentosprovIDDEPARTAMENTO
+ALTER TABLE Proveedor_Departamento DROP FOREIGN KEY Proveedor_DepartamentoProveedores_dep_ID_PROVEEDOR
+DROP TABLE Empleado
+DROP TABLE Departamento
+DROP TABLE Proveedor
+DROP TABLE Proveedor_Departamento
